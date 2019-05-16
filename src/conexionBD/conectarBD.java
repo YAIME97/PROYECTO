@@ -2,7 +2,7 @@ package conexionBD;
 
 /**
  *
- * @author JUAN YAIME
+ * @author JUAN YAIME N
  */
 public class conectarBD {
     public static void main(String[] args) {
