@@ -1,0 +1,10 @@
+module estudianteApp{
+interface estudiante{
+boolean insertarEstudiante(in long idestudiante, in wstring nombreEstudiante, in wstring apellidoEstudiante, in long carrera);
+wstring consultaEstudiante(in long idestudiante);
+boolean actualizarEstudiante(in long idestudiante, in wstring nombreEstudiante, in wstring apellidoEstudiante, in long carrera);
+boolean eliminarEstudiante(in long idestudiante);
+wstring listarEstudiantes();
+oneway void shutdown();
+};
+};
